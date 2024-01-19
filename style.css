@@ -1,0 +1,94 @@
+* {
+  font-family: sans-serif, "poppins", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serifs;
+  padding: 0;
+  margin: 0;
+  border: border-box;
+  /* color: #ffff; */
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(bg\ violet.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  border-radius: 15px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 50px 20px 50px 20px;
+  width: 420px;
+}
+.container .input-box {
+  width: 100%;
+
+  margin: 10px 20px 10px 20px;
+}
+.input-box input {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  width: 390px;
+  margin: 10px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 15px 20px 15px 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container .remember-me label {
+  color: #ffff;
+}
+.container .remember-me .ni input {
+  accent-color: #fff;
+}
+.remember-me label:hover {
+  cursor: pointer;
+}
+.container .login {
+  display: flex;
+  width: 100%;
+  color: #ffff;
+}
+
+.container .btn {
+  font-size: 17px;
+  width: 250px;
+  margin-left: 65px;
+  padding: 9px;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+}
+.container .btn:hover {
+  cursor: pointer;
+  color: #ffff;
+  background-color: #4d243d;
+}
+.container .login {
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #fff;
+}
+.container .login a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.container .login a:hover {
+  color: skyblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
